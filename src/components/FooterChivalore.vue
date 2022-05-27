@@ -130,6 +130,7 @@ footer .right.flex {
      flex-direction: column;
      justify-content: center;
      align-items: center;
+     gap: 1rem;
 }
 
 footer .right p {
@@ -138,8 +139,8 @@ footer .right p {
 }
 
 footer .right .logo {
-     height: 150px;
-     width: auto;
+     max-width: 350px;
+     height: auto;
 }
 
 @media (max-width: 800px) {
